@@ -92,8 +92,13 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/teaching/">teaching</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/_pages/dropdown/">submenus</a>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/publications/">publications</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/projects/">projects</a>
+                </div>
               </li>
 
               <!-- Toogle theme mode -->
@@ -169,22 +174,9 @@
               <table class="table table-sm table-borderless">
                
                 <tr>
-                  <th scope="row">Jan 15, 2016</th>
+                  <th scope="row">Apr 6, 2023</th>
                   <td>
-                    A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Nov 7, 2015</th>
-                  <td>
-                    <a class="news-title" href="/news/announcement_2/">A long announcement with details</a> 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Oct 22, 2015</th>
-                  <td>
-                    A simple inline announcement.
+                    Moved website to new <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> template.
  
                   </td>
                 </tr> 
@@ -196,7 +188,118 @@
           <!-- Selected papers -->
           <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
           <div class="publications">
-            <ol class="bibliography"></ol>
+            <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="Rong2022.12.08.519641" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">A Deep Learning Approach for Histology-Based Nuclei Segmentation and Tumor Microenvironment Characterization</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Ruichen Rong, Hudanyun Sheng, Kevin W. Jin, and
+          <span class="more-authors" title="click to view 12 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '12 more authors' ? 'Fangjiang Wu, Danni Luo, Zhuoyu Wen, Chen Tang, Donghan M. Yang, Liwei Jia, Mohamed Amgad, Lee A.D. Cooper, Yang Xie, Xiaowei Zhan, Shidan Wang, Guanghua Xiao' : '12 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">12 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>bioRxiv</em>, 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="https://www.biorxiv.org/content/early/2022/12/12/2022.12.08.519641.full.pdf"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1101/2022.12.08.519641" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Microscopic examination of pathology slides is essential to disease diagnosis and biomedical research; however, traditional manual examination of tissue slides is laborious and subjective. Tumor whole-slide image (WSI) scanning is becoming part of routine clinical procedure and produces massive data that capture tumor histological details at high resolution. Furthermore, the rapid development of deep learning algorithms has significantly increased the efficiency and accuracy of pathology image analysis. In light of this progress, digital pathology is fast becoming a powerful tool to assist pathologists.Studying tumor tissue and its surrounding microenvironment provides critical insight into tumor initiation, progression, metastasis, and potential therapeutic targets. Nuclei segmentation and classification are critical to pathology image analysis, especially in characterizing and quantifying the tumor microenvironment (TME). Computational algorithms have been developed for nuclei segmentation and TME quantification within image patches; however, existing algorithms are computationally intensive and time-consuming for WSI analysis.In this study, we present Histology-based Detection using Yolo (HD-Yolo), a new method that significantly accelerates nuclei segmentation and TME quantification. We demonstrate that HD-Yolo outperforms existing methods for WSI analysis in nuclei detection and classification accuracy, as well as computation time.Competing Interest StatementThe authors have declared no competing interest.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="Jiang2023.03.10.532127" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Spatial Transcriptomics Arena (STAr): an Integrated Platform for Spatial Transcriptomics Methodology Research</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Xi Jiang, Danni Luo, Esteban Fernández, and
+          <span class="more-authors" title="click to view 10 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '10 more authors' ? 'Jie Yang, Huimin Li, Kevin W. Jin, Yuanchun Zhan, Bo Yao, Suhana Bedi, Guanghua Xiao, Xiaowei Zhan, Qiwei Li, Yang Xie' : '10 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">10 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>bioRxiv</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="https://www.biorxiv.org/content/early/2023/03/12/2023.03.10.532127.full.pdf"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1101/2023.03.10.532127" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The emerging field of spatially resolved transcriptomics (SRT) has revolutionized biomedical research. SRT quantifies expression levels at different spatial locations, providing a new and powerful tool to interrogate novel biological insights. An essential question in the analysis of SRT data is to identify spatially variable (SV) genes; the expression levels of such genes have spatial variation across different tissues. SV genes usually play an important role in underlying biological mechanisms and tissue heterogeneity. Currently, several computational methods have been developed to detect such genes; however, there is a lack of unbiased assessment of these approaches to guide researchers in selecting the appropriate methods for their specific biomedical applications. In addition, it is difficult for researchers to implement different existing methods for either biological study or methodology development.Furthermore, currently available public SRT datasets are scattered across different websites and preprocessed in different ways, posing additional obstacles for quantitative researchers developing computational methods for SRT data analysis. To address these challenges, we designed Spatial Transcriptomics Arena (STAr), an open platform comprising 193 curated datasets from seven technologies, seven statistical methods, and analysis results. This resource allows users to retrieve high-quality datasets, apply or develop spatial gene detection methods, as well as browse and compare spatial gene analysis results. It also enables researchers to comprehensively evaluate SRT methodology research in both simulated and real datasets. Altogether, STAr is an integrated research resource intended to promote reproducible research and accelerate rigorous methodology development, which can eventually lead to an improved understanding of biological processes and diseases. STAr can be accessed at https://lce.biohpc.swmed.edu/star/.Competing Interest StatementThe authors have declared no competing interest.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
           </div>
 
 
