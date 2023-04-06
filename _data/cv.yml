@@ -9,10 +9,37 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD Computational Biology and Bioinformatics
+    - title: Ph.D. Computational Biology and Bioinformatics
       institution: Yale University
       year: 2023 - 2028
 
     - title: B.S. Molecular and Cellular Biology
       institution: Johns Hopkins University
       year: 2016 - 2020
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: The University of Texas Southwestern Medical Center
+      year: 2022-2023
+
+    - title: Research Assistant
+      institution: University of Texas at Dallas
+      year: 2022-2023
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Biomedical Informatics
+    - title: Computational Psychiatry
+    - title: Wearable Devices
+    - title: International Relations
+      items:
+        - East Asian geopolitics
+        - Military history
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Cooking, studying languages, kendo
