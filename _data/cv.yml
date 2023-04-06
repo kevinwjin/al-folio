@@ -10,22 +10,22 @@
   type: time_table
   contents:
     - title: Ph.D. Computational Biology and Bioinformatics
-      institution: Yale University
+      institution: Yale University, New Haven, CT
       year: 2023 - 2028
 
     - title: B.S. Molecular and Cellular Biology
-      institution: Johns Hopkins University
+      institution: Johns Hopkins University, Baltimore, MD
       year: 2016 - 2020
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Intern
-      institution: The University of Texas Southwestern Medical Center
+      institution: The University of Texas Southwestern Medical Center, Dallas, TX
       year: 2022-2023
 
     - title: Research Assistant
-      institution: University of Texas at Dallas
+      institution: The University of Texas at Dallas, Richardson, TX
       year: 2022-2023
 
 - title: Academic Interests
