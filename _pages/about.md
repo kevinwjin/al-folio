@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: First-year PhD student at Yale University
+subtitle:
 
 profile:
   align: right
