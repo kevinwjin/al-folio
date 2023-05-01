@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-04-06
+date: 2015-10-22 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Moved website to new [al-folio](https://github.com/alshedivat/al-folio) template.
+A simple inline announcement.
